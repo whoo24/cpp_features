@@ -30,8 +30,8 @@
     <ClInclude Include="..\all_tests\stdafx.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="smart_pointer.vcxproj">
-      <Project>{b68bb671-72ce-4eb5-b381-a1d7c520515d}</Project>
+    <ProjectReference Include="language.vcxproj">
+      <Project>{bc46d739-c0f0-493e-bca8-20715a475d08}</Project>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Label="Globals">

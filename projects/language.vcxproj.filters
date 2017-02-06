@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\language\stdafx.cpp" />
+    <ClCompile Include="..\language\smart_pointer\smart_pointer.cpp">
+      <Filter>smart_pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\language\export.cpp" />
+    <ClCompile Include="..\language\variadic\variadic.cpp">
+      <Filter>variadic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\language\stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="smart_pointer">
+      <UniqueIdentifier>{7e2114b8-6003-40b2-8692-26b28ea9f778}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="variadic">
+      <UniqueIdentifier>{6c3cf656-535a-4f3f-b90f-a92728132500}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

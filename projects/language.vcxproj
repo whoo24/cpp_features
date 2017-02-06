@@ -19,19 +19,23 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\smart_pointer\smart_pointer.cpp" />
-    <ClCompile Include="..\smart_pointer\stdafx.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+    <ClCompile Include="..\language\export.cpp" />
+    <ClCompile Include="..\language\smart_pointer\smart_pointer.cpp" />
+    <ClCompile Include="..\language\stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="..\language\variadic\variadic.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\smart_pointer\stdafx.h" />
+    <ClInclude Include="..\language\stdafx.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{B68BB671-72CE-4EB5-B381-A1D7C520515D}</ProjectGuid>
+    <ProjectGuid>{BC46D739-C0F0-493E-BCA8-20715A475D08}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>smart_pointer</RootNamespace>
+    <RootNamespace>language</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />

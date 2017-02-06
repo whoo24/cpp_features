@@ -1,7 +1,6 @@
 #include "stdafx.h"
 #include <memory>
-
-EXPORT_TEST(smart_pointer)
+EXPORT_TEST(SmartPointerTest)
 
 struct Boo {
   Boo() {

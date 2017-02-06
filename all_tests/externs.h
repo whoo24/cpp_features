@@ -1,4 +1,5 @@
 #pragma once
 #include "global\macro.h"
 
-IMPORT_TEST(smart_pointer)
+IMPORT_TEST(SmartPointerTest)
+IMPORT_TEST(VariadicTest)
