@@ -3,3 +3,4 @@
 
 IMPORT_TEST(SmartPointerTest)
 IMPORT_TEST(VariadicTest)
+IMPORT_TEST(ExplicitTest)

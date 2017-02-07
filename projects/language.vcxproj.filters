@@ -9,6 +9,9 @@
     <ClCompile Include="..\language\variadic\variadic.cpp">
       <Filter>variadic</Filter>
     </ClCompile>
+    <ClCompile Include="..\explicit\explicit.cpp">
+      <Filter>explicit</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\language\stdafx.h" />
@@ -19,6 +22,9 @@
     </Filter>
     <Filter Include="variadic">
       <UniqueIdentifier>{6c3cf656-535a-4f3f-b90f-a92728132500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="explicit">
+      <UniqueIdentifier>{0096e651-a171-4fe6-ba6f-b536c162235c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

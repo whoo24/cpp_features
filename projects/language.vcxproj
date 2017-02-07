@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\explicit\explicit.cpp" />
     <ClCompile Include="..\language\export.cpp" />
     <ClCompile Include="..\language\smart_pointer\smart_pointer.cpp" />
     <ClCompile Include="..\language\stdafx.cpp">
